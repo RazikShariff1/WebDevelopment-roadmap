@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <!-- form is the tag and action is the attribute which implies the backend , -->
+    <!-- where the form will be sumbitted ex->.py,.php,...etc-->
+    <form action="formend.py" style="background-color: rgb(221, 217, 127);">
+        <!-- label is used for selection  -->
+        <label for="name"></label>
+        <!-- input tag takes the user input -->
+        <div>
+            <!--will discuss about div tag in further sessions -->
+            Name:<input type="text" id="name">
+        </div>\<br>
+        <div>
+            Date of birth: <input type="date" name="Date" id="">
+        </div>
+
+        <br>
+        <div>
+            Gender: male <input type="radio" name="Gender" id=""> female <input type="radio" name="Gender" id="">
+        </div><br>
+        <!-- the input tag pops some inputs types ,try them ,.. -->
+        <div>
+            Write about yourself: <br> <textarea name="Write about yourself" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <!-- submit is use to submit the form -->
+            <input type="submit" value="sumbit">
+            <input type="reset" value="reset">
+        </div>
+        <!-- select block of code and alt+(up,down) to move entier code without copy paste  -->
+    </form>
+    <div style="border:rebeccapurple ;
+    background-color: bisque;
+    width: 23%;
+    font-family: League Spartan;">
+        <form action="">
+            <h3 style="padding-left: 30%;">login </h3>
+            Email:<input type="email" placeholder="Enter email or phone number"><br><br>
+            Password: <input type="password">
+    </div><br>
+    <input type="submit" value="Login">
+    <!-- the for label attribute and id mudt be same-->
+    <!-- value attributeis for ui text interface-->
+    <!-- fadded text using place holder -->
+    <br><br>
+    <label for="date2day">choose date</label>
+    <input type="date" name="date2day" id="">
+    </form>
+    <!-- legend and fieldset -->
+    <form>
+        <fieldset>
+            <legend>Educationd details</legend>
+            <label for="info">Tell about your Studies:</label><br>
+            <textarea name="info" id="" cols="30" rows="10" placeholder="text here"></textarea>
+        </fieldset>
+    </form>
+    <!-- file to upload file -->
+    <!-- img for image upload -->
+</body>
+<!-- hw to do professional forms such as job application or reffer google -->
+</html>
